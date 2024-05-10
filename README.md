@@ -14,24 +14,24 @@ In this mini-project, I hosted a static website using AWS S3 Bucket for storage 
 ![s3-created](images/1aCapture.PNG)
 ![alt text](images/3Capture.PNG)
 
+### Created a Distribution with CloudFront
+
+![create_distribution](images/create_distribution.png)
+
+### Created OAC - Origin Access Control - to restrict access to public
+
+![oac](images/oac.png)
+![update_policy](images/update_policy.PNG)
+
 ### Added policy to make it public
 
-![alt text](images/4Capture.PNG)
-
-### View of my static web from the end-point URL
-
-- _bucket-name>properties>static website hosting_
-
-![alt text](images/6Capture.PNG)
-
-### Create distribution with Cloudfront
-
-![alt text](images/7aCapture.PNG)
+![added_policy_s3](images/added_policy_s3.PNG)
 
 ### Finally, confirm website with distribution domain name
 
-![alt text](images/7Capture.PNG)
-![alt text](images/9Capture.PNG)
+- copy the domain name link and open in a new browser tab
+  ![distr_domain](images/distr_domain.PNG)
+  ![cloudfront_dist_endpoint](images/cloudfront_dist_endpoint.PNG)
 
 ### For Static Template
 
